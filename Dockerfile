@@ -13,8 +13,8 @@ COPY mysite /mysite
 # Set environment variables 
 ENV PORT=8000 
 ENV STUDENT_NAME="Luis"
-ENV SITE_NAME=" Da website"
-ENV SECRET_KEY="Password_12348488238823495129519823591"
+ENV SITE_NAME="First kubernetes"
+ENV SECRET_KEY="Abc123**"
 ENV DEBUG=1
 ENV DATA_DIR=/data
 
