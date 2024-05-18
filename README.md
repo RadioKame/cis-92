@@ -42,6 +42,7 @@ This is my project.
 
 cd **to desire directory**
 
+###
 git clone git@github.com:RadioKame/cis-92.git
 
 ### make sure your cluster is up and running ###
@@ -50,13 +51,16 @@ kubectl get all
 
 
 
-## Start up commands
+### Start up commands
 kubectl apply -f deployment/
 
 ### Initilize Database and set username password(we open a shell in the pod)
 kubectl exec --stdin --tty pod/django-pod -- /bin/bash
 
-## run in it:
+
+
+
+### run in it:
 
 python manage.py migrate
 
@@ -66,7 +70,7 @@ exit
 
 If failing, basic troubleshoot is ok, just don't stress the system or try troubleshoot outside
 
-## check the app using the external IP
+### check the app using the external IP
 
 :D
 
@@ -75,7 +79,7 @@ If failing, basic troubleshoot is ok, just don't stress the system or try troubl
 kubectl delete -f deployment/
 
 
-## to check
+### try
 
 kubectl get all
 
