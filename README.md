@@ -17,13 +17,6 @@ This is my project.
 | Data_Dir | /data | Where the data is located | 
 | Debug | "1" | Debug is enabled | 
 
-## The variables from secret.yaml
-
-| Variable Name | Default Value | Description |
-| --- | --- | --- |  
-| Metadata | mysite-secret | The metadata from secret.yaml |  
-| SECRET_KEY | "Abc123**" | The secret key |
-
 #### Primary Resources Requests
 | Resource | Default Value | Description |
 | --- | --- | --- |
