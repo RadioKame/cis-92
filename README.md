@@ -17,6 +17,14 @@ This is my project.
 | Data_Dir | /data | Where the data is located | 
 | Debug | "1" | Debug is enabled | 
 
+### The variables from secret.yaml
+| Variable Name | Default Value | Description |
+|---|---|---|
+| SECRET_KEY | Abc123** | text key to securing signed data |
+| POSTGRES_USER | mysiteuser | PostgresSQL user name |
+| POSTGRES_PASSWORD | Abc123** | PostgresSQL password |
+| POSTGRES_DB | mysite | Name of postgres DB|
+
 #### Primary Resources Requests
 | Resource | Default Value | Description |
 | --- | --- | --- |
@@ -30,6 +38,10 @@ This is my project.
 |memory | 512Mi |
 |cpu | 500m |
 |ephemeral-storage | 100Mi |
+
+
+
+
 
 ### Create your workspace!
 
