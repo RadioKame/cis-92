@@ -5,6 +5,6 @@ metadata:
 data:
     PORT: "8000" 
     STUDENT_NAME: "Luis Garcia"
-    SITE_NAME: "First kubernetes"
+    SITE_NAME: "*"
     DATA_DIR: "/data"
     DEBUG: "1"
