@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: django-pod
+  name: mysite-pod
   labels:
     function: app
 spec:
   containers:
-  - name: django
+  - name: mysite
     image: ghcr.io/radiokame/cis-92:milestone-06.1
     ports:
     - containerPort: 8000

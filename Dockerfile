@@ -12,7 +12,7 @@ COPY mysite /mysite
 
 # Set environment variables 
 ENV PORT=8000 
-ENV STUDENT_NAME="Luis"
+ENV STUDENT_NAME="Luis Garcia"
 ENV SITE_NAME="First kubernetes"
 ENV SECRET_KEY="Abc123**"
 ENV DEBUG=1
