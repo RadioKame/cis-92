@@ -62,7 +62,7 @@ kubectl get all
 kubectl apply -f deployment/
 
 ## Initilize Database and set username password(we open a shell in the pod)
-kubectl exec --stdin --tty pod/mysite-pod -- /bin/bash
+kubectl exec --stdin --tty pod/django-pod -- /bin/bash
 
 
 
