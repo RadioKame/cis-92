@@ -20,6 +20,13 @@ spec:
         image: ghcr.io/radiokame/cis-92:milestone-06.1 
         ports:
         - containerPort: 8000
+        livenessProbe:
+          httpGet:
+            path: /
+            port: 8000
+            httpHeaders:
+            - name: host
+              value: localhost        
         resources:
           requests:
             cpu: 250m 
